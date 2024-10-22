@@ -25,7 +25,7 @@ try {
 
 // -> Refactorizado
 $resultado = 0;
-$url = 'create.php?op=insertpokemont&result=' . $resultado;
+$url = 'create.php?op=insertpokemon&result=' . $resultado;
 
 if(isset($_POST['name']) && isset($_POST['weight']) && isset($_POST['height']) && isset($_POST['type']) && isset($_POST['evolution'])) {
     $name = $_POST['name'];
