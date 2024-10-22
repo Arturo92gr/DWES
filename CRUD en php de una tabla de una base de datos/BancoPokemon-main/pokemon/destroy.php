@@ -35,5 +35,5 @@ if(!$sentence->execute()){
 }
 $resultado = $sentence->rowCount();
 $connection = null;
-$url = '.?op=deleteproduct&result=' . $resultado;
+$url = '.?op=deletepokemon&result=' . $resultado;
 header('Location: ' . $url);
