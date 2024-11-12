@@ -18,7 +18,6 @@
         </div>
         <div class="form-group">
             <label for="type">Type</label>
-            <!-- <input value="{{old('type')}}" required type="number" class="form-control" id="type" name="type" placeholder="type"> -->
             <select required type="text" class="form-control" id="type" name="type">
                 <option value="bug" {{ old('type') == 'bug' ? 'selected' : '' }}>bug</option>
                 <option value="dark" {{ old('type') == 'dark' ? 'selected' : '' }}>dark</option>

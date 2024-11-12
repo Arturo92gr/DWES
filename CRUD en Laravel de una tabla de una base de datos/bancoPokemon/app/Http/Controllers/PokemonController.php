@@ -17,6 +17,25 @@ class PokemonController extends Controller
         return view('bank.create', ['lipokemon' => 'active']);
     }
 
+    function destroy(Pokemon $pokemon) {
+        try {
+            $pokemon->delete();
+            return redirect('pokemon')->with(['message' => 'The pokemon has been deleted.']);
+        } catch(\Exception $e) {
+             return back()->withErrors(['message' => 'The pokemon has not been deleted.']);
+        }
+    }
+
+    function edit(Pokemon $pokemon) {
+        return view('bank.edit', ['lipokemon' => 'active',
+                                        'pokemon' => $pokemon,]);
+    }
+
+    function show(Pokemon $pokemon) {
+        return view('bank.show', ['lipokemon' => 'active',
+                                        'pokemon' => $pokemon,]);
+    }
+
     function store(Request $request) {
         $validated = $request->validate([
             'name'  => 'required|unique:pokemon|max:20|min:2',
@@ -31,19 +50,8 @@ class PokemonController extends Controller
             $object = Pokemon::create($request->all());
             return redirect('pokemon')->with(['message' => 'The pokemon has been created.']);
         } catch(\Exception $e) {
-            //si no lo he guardado volver a la página anterior con sus datos para volver a rellenar el formulario y mensaje
             return back()->withInput()->withErrors(['message' => 'The pokemon has not been created.']);
         }
-    }
-
-    function show(Pokemon $pokemon) {
-        return view('bank.show', ['lipokemon' => 'active',
-                                        'pokemon' => $pokemon,]);
-    }
-
-    function edit(Pokemon $pokemon) {
-        return view('bank.edit', ['lipokemon' => 'active',
-                                        'pokemon' => $pokemon,]);
     }
 
     function update(Request $request, Pokemon $pokemon) {
@@ -56,20 +64,10 @@ class PokemonController extends Controller
         ]);
         try {
             $result = $pokemon->update($request->all());
-            //$pokemon->fill($request->all());
-            //$result = $pokemon->save();
             return redirect('pokemon')->with(['message' => 'The pokemon has been updated.']);
         } catch(\Exception $e) {
             return back()->withInput()->withErrors(['message' => 'The pokemon has not been updated.']);
         }
     }
-
-    function destroy(Pokemon $pokemon) {
-        try {
-            $pokemon->delete();
-            return redirect('pokemon')->with(['message' => 'The pokemon has been deleted.']);
-        } catch(\Exception $e) {
-             return back()->withErrors(['message' => 'The pokemon has not been deleted.']);
-        }
-    }
+    
 }
