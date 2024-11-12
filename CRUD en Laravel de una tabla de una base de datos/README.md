@@ -10,8 +10,6 @@ Aplicación de banco pokèmon
 [5. Vistas](#5-vistas)  
     [Javascript](#javascript)
 
-Pasos: composer install, renombrar .env.example a .env, generar id, crear la base de datos y el usuario, poner esos datos en el .env
-
 ## 1. Creación del proyecto
 
 En el directorio que albergará el proyecto:
