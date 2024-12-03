@@ -9,6 +9,7 @@ Aplicación de banco pokèmon
 - [Funcionalidades](#funcionalidades)  
 - [Tipos de Pokémon Disponibles](#tipos-de-pokémon-disponibles)  
 - [Seguridad](#seguridad)  
+- [Aspecto de la web](#aspecto-de-la-web)  
 
 <br>
 
@@ -94,3 +95,34 @@ pokemon/
 - Validación de datos en servidor
 - Prevención de SQL injection usando PDO
 - Confirmación JavaScript para eliminación
+
+## Aspecto de la web
+
+<img src="./imgs/1.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/2.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/3.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/4.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/5.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/6.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/7.png" border="1px solid black"/>
+
+<br>
+
