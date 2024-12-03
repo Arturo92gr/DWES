@@ -111,22 +111,28 @@ $connection = null;
         <meta charset="UTF-8">
         <title>dwes</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="..">DWES</a>
+            <a class="navbar-brand" href="./">DWES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="..">Home</a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./">Pokèmon</a>
+                        <a class="nav-link" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pokemon">Pokèmon</a>
                     </li>
                 </ul>
+            </div>
+            <div>
+                <a href="https://github.com/Arturo92gr/DWES/tree/main/CRUD%20en%20php%20de%20una%20tabla%20de%20una%20base%20de%20datos" class="text-white" target="_blank">
+                    <i class="fa-brands fa-github"></i> Code
+                </a>
             </div>
         </nav>
         <main role="main">
