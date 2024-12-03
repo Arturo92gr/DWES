@@ -8,7 +8,8 @@ Aplicación de banco pokèmon
 [3. Controladores](#3-controladores)  
 [4. Rutas](#4-rutas)  
 [5. Vistas](#5-vistas)  
-    [Javascript](#javascript)
+    [Javascript](#javascript)  
+[6. Aspecto de la web](#aspecto-de-la-web)  
 
 ## 1. Creación del proyecto
 
@@ -198,3 +199,9 @@ En public/assets/scripts/script.js:
 
 })();
 ```
+
+## 6. Aspecto de la web
+
+El aspecto de esta web es el mismo que en la versión de php, exceptuando el mensaje de login, como se puede ver a continuación:
+
+<img src="./imgs/2laravel.png" border="1px solid black"/>
