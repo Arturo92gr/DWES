@@ -8,7 +8,6 @@ Aplicación de banco pokèmon
 [3. Controladores](#3-controladores)  
 [4. Rutas](#4-rutas)  
 [5. Vistas](#5-vistas)  
-    [Javascript](#javascript)  
 [6. Aspecto de la web](#6-aspecto-de-la-web)  
 
 ## 1. Creación del proyecto
