@@ -3,14 +3,14 @@ Aplicación de banco pokèmon
 
 ## Contenidos
 
-[1. Creación del proyecto](#1-creación-del-proyecto)  
-[2. .env](#2-env)  
-[3. Controladores](#3-controladores)  
-[4. Rutas](#4-rutas)  
-[5. Vistas](#5-vistas)  
-[6. Aspecto de la web](#6-aspecto-de-la-web)  
+- [Creación del proyecto](#1-creación-del-proyecto)  
+- [.env](#2-env)  
+- [Controladores](#3-controladores)  
+- [Rutas](#4-rutas)  
+- [Vistas](#5-vistas)  
+- [Aspecto de la web](#6-aspecto-de-la-web)  
 
-## 1. Creación del proyecto
+## Creación del proyecto
 
 En el directorio que albergará el proyecto:
 
@@ -40,7 +40,7 @@ Se verifican y se instalan todos los paquetes y dependencias necesarios ejecutan
 
 Por último, en phpMyAdmin, se ha creado la base de datos a utilizar junto con un usuario con todos los privilegios necesarios.
 
-## 2. .env
+## .env
 
 Se ha de renombrar el archivo oculto *.env.example* que guarda las credenciales para conectar con la base de datos:
 
@@ -65,7 +65,7 @@ Una vez hecho esto, se hace una migración de la base de datos al directorio pri
 
 Finalmente, para dejar todo preparado, se ha copiado la carpeta *assets* del proyecto referente en el directorio *public* y se han creado dos nuevos directorios, *bank* y *main* dentro del directorio ya existente *resources/views*.
 
-## 3. Controladores
+## Controladores
 
 Se ha comenzado creando un primer controlador que contenga login, logout y main:
 
@@ -102,7 +102,7 @@ class MainController extends Controller
 
 Tras esto, se ha generado un segundo controlador para gestión, *PokemonController.php*, con las funciones create, destroy, edit, index, show, store y update.
 
-## 4. Rutas
+## Rutas
 
 En *routes/web.php* se añaden las diferentes rutas que tendrá la aplicación:
 
@@ -138,7 +138,7 @@ Y por último, reiniciar el servicio de apache: `sudo service apache2 restart`.
 
 Ahora podemos ver la lista de las rutas creadas con el comando `php artisan route:list` o su forma abreviada `abreviado: php artisan r:l`.
 
-## 5. Vistas
+## Vistas
 
 En resources/views tenemos el directorio *main* que contiene la vista *main.blade.php*:
 
@@ -199,7 +199,7 @@ En public/assets/scripts/script.js:
 })();
 ```
 
-## 6. Aspecto de la web
+## Aspecto de la web
 
 El aspecto de esta web es el mismo que en la versión de php, exceptuando el mensaje de login, como se puede ver a continuación:
 
