@@ -123,6 +123,3 @@ pokemon/
 <br>
 
 <img src="./imgs/7.png" border="1px solid black"/>
-
-<br>
-
