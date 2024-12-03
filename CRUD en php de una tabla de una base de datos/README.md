@@ -3,12 +3,12 @@ Aplicación de banco pokèmon
 
 ## Contenidos
 
--[Características](#características)  
--[Estructura de la Base de Datos](#estructura-de-la-base-de-datos)  
--[Estructura del Proyecto](#estructura-del-proyecto)  
--[Funcionalidades](#funcionalidades)  
--[Tipos de Pokémon Disponibles](#tipos-de-pokémon-disponibles)  
--[Seguridad](#seguridad)  
+- [Características](#características)  
+- [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)  
+- [Estructura del Proyecto](#estructura-del-proyecto)  
+- [Funcionalidades](#funcionalidades)  
+- [Tipos de Pokémon Disponibles](#tipos-de-pokémon-disponibles)  
+- [Seguridad](#seguridad)  
 
 <br>
 
