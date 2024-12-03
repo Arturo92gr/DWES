@@ -204,4 +204,28 @@ En public/assets/scripts/script.js:
 
 El aspecto de esta web es el mismo que en la versión de php, exceptuando el mensaje de login, como se puede ver a continuación:
 
-<img src="./imgs/2laravel.png" border="1px solid black"/>
+<img src="./imgs/1.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/2.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/3.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/4.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/5.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/6.png" border="1px solid black"/>
+
+<br>
+
+<img src="./imgs/7.png" border="1px solid black"/>
